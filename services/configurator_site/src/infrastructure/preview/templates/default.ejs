@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= site.brandName %></title>
+    <style>
+        :root {
+            --primary: <%= site.branding.colors.primary %>;
+            --secondary: <%= site.branding.colors.secondary %>;
+            --accent: <%= site.branding.colors.accent %>;
+            --background: <%= site.branding.colors.background %>;
+            --text: <%= site.branding.colors.text %>;
+            --heading-font: '<%= site.branding.typography.headingFont %>', sans-serif;
+            --body-font: '<%= site.branding.typography.bodyFont %>', sans-serif;
+        }
+
+        body {
+            font-family: var(--body-font);
+            background-color: var(--background);
+            color: var(--text);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--heading-font);
+            margin-bottom: 1rem;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 2rem;
+            background-color: var(--background);
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            height: 40px;
+            width: auto;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        section {
+            padding: 4rem 2rem;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 6rem 2rem;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            border-radius: 0 0 2rem 2rem;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            opacity: 0.9;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--accent);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 2rem;
+            transition: transform 0.2s;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .feature-card {
+            padding: 2rem;
+            border-radius: 1rem;
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <% if (site.branding.logo && site.branding.logo.url) { %>
+            <img src="<%= site.branding.logo.url %>" alt="<%= site.brandName %>" class="logo">
+        <% } else { %>
+            <h3><%= site.brandName %></h3>
+        <% } %>
+        <nav>
+            <a href="#" class="cta-button" style="margin-top: 0; padding: 0.5rem 1.5rem;">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <% site.pages[0].sections.forEach(function(section) { %>
+            <% if (section.type === 'hero') { %>
+                <section class="hero" id="<%= section.id %>">
+                    <h1><%= section.content.headline %></h1>
+                    <p><%= section.content.subheadline %></p>
+                    <% if (section.content.ctaText) { %>
+                        <a href="<%= section.content.ctaLink %>" class="cta-button"><%= section.content.ctaText %></a>
+                    <% } %>
+                </section>
+            <% } else if (section.type === 'features') { %>
+                <section id="<%= section.id %>">
+                    <h2><%= section.content.title %></h2>
+                    <div class="features-grid">
+                        <% section.content.features.forEach(function(feature) { %>
+                            <div class="feature-card">
+                                <h3><%= feature.title %></h3>
+                                <p><%= feature.description %></p>
+                            </div>
+                        <% }); %>
+                    </div>
+                </section>
+            <% } else { %>
+                <section id="<%= section.id %>">
+                    <h2><%= section.content.title %></h2>
+                    <p><%= section.content.description %></p>
+                </section>
+            <% } %>
+        <% }); %>
+    </main>
+</body>
+</html>

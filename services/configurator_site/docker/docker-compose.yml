@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  # Main App
+  configurator:
+    build: 
+      context: ..
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+      - REDIS_HOST=redis
+      - DATABASE_URL=postgresql://sitebuilder:password@postgres:5432/sitebuilder_dev
+      - STORAGE_ENDPOINT=http://minio:9000
+    depends_on:
+      - redis
+      - postgres
+      - minio
+    volumes:
+      - ../src:/app/src
+
+  # Dependencies
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+
+  postgres:
+    image: postgres:15-alpine
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: sitebuilder
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: sitebuilder_dev
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  minio:
+    image: minio/minio
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin
+    command: server /data --console-address ":9001"
+    volumes:
+      - miniodata:/data
+
+volumes:
+  pgdata:
+  miniodata:

@@ -1,0 +1,310 @@
+{"location":"main.ts:11","message":"bootstrap started","data":{},"timestamp":1770216353614,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:25","message":"before createFastifyServer","data":{"host":"0.0.0.0","port":3000},"timestamp":1770216353678,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"main.ts:35","message":"after createFastifyServer","data":{"serverCreated":true},"timestamp":1770216353743,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"main.ts:15","message":"container created","data":{"hasController":true},"timestamp":1770216353675,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.ts:11","message":"bootstrap started","data":{},"timestamp":1770216368574,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:25","message":"before createFastifyServer","data":{"host":"0.0.0.0","port":3000},"timestamp":1770216368615,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:27","message":"createFastifyServer entry","data":{"hasController":true},"timestamp":1770216368616,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FastifyServer.ts:44","message":"before cors register","data":{},"timestamp":1770216368629,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:54","message":"before multipart register","data":{},"timestamp":1770216368670,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:64","message":"before rateLimit register","data":{"hasRateLimit":true},"timestamp":1770216368674,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:68","message":"before registerRoutes","data":{"hasController":true},"timestamp":1770216368680,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FastifyServer.ts:71","message":"after registerRoutes","data":{},"timestamp":1770216368698,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:35","message":"after createFastifyServer","data":{"serverCreated":true},"timestamp":1770216368701,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"main.ts:15","message":"container created","data":{"hasController":true},"timestamp":1770216368614,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.ts:11","message":"bootstrap started","data":{},"timestamp":1770216381147,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:25","message":"before createFastifyServer","data":{"host":"0.0.0.0","port":3000},"timestamp":1770216381186,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:27","message":"createFastifyServer entry","data":{"hasController":true},"timestamp":1770216381187,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FastifyServer.ts:44","message":"before cors register","data":{},"timestamp":1770216381197,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:54","message":"before multipart register","data":{},"timestamp":1770216381237,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:64","message":"before rateLimit register","data":{"hasRateLimit":true},"timestamp":1770216381243,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:68","message":"before registerRoutes","data":{"hasController":true},"timestamp":1770216381250,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:11","message":"registerRoutes entry","data":{"hasController":true},"timestamp":1770216381251,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:32","message":"before server.register api/v1","data":{},"timestamp":1770216381255,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:38","message":"inside api/v1 register","data":{},"timestamp":1770216381264,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:45","message":"before draftRoutes register","data":{"hasController":true},"timestamp":1770216381265,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:15","message":"container created","data":{"hasController":true},"timestamp":1770216381185,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"routes/index.ts:54","message":"registerRoutes exit","data":{},"timestamp":1770216381279,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FastifyServer.ts:71","message":"after registerRoutes","data":{},"timestamp":1770216381281,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:35","message":"after createFastifyServer","data":{"serverCreated":true},"timestamp":1770216381284,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"routes/index.ts:50","message":"after draftRoutes register","data":{},"timestamp":1770216381274,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:11","message":"bootstrap started","data":{},"timestamp":1770216386144,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:25","message":"before createFastifyServer","data":{"host":"0.0.0.0","port":3000},"timestamp":1770216386191,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:27","message":"createFastifyServer entry","data":{"hasController":true},"timestamp":1770216386192,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FastifyServer.ts:44","message":"before cors register","data":{},"timestamp":1770216386203,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:54","message":"before multipart register","data":{},"timestamp":1770216386255,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:64","message":"before rateLimit register","data":{"hasRateLimit":true},"timestamp":1770216386261,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:68","message":"before registerRoutes","data":{"hasController":true},"timestamp":1770216386268,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:11","message":"registerRoutes entry","data":{"hasController":true},"timestamp":1770216386271,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:32","message":"before server.register api/v1","data":{},"timestamp":1770216386273,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:38","message":"inside api/v1 register","data":{},"timestamp":1770216386284,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:15","message":"container created","data":{"hasController":true},"timestamp":1770216386190,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"routes/index.ts:45","message":"before draftRoutes register","data":{"hasController":true},"timestamp":1770216386287,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:50","message":"after draftRoutes register","data":{},"timestamp":1770216386304,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:54","message":"registerRoutes exit","data":{},"timestamp":1770216386310,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FastifyServer.ts:71","message":"after registerRoutes","data":{},"timestamp":1770216386311,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:35","message":"after createFastifyServer","data":{"serverCreated":true},"timestamp":1770216386315,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"routes/draft.ts:10","message":"draftRoutes entry","data":{"hasController":true,"hasConfig":true},"timestamp":1770216386293,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:11","message":"bootstrap started","data":{},"timestamp":1770216392568,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DIContainer.ts:125","message":"after DraftController creation","data":{"hasController":true},"timestamp":1770216392637,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.ts:15","message":"container created","data":{"hasController":true},"timestamp":1770216392639,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.ts:25","message":"before createFastifyServer","data":{"host":"0.0.0.0","port":3000},"timestamp":1770216392640,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:27","message":"createFastifyServer entry","data":{"hasController":true},"timestamp":1770216392644,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FastifyServer.ts:44","message":"before cors register","data":{},"timestamp":1770216392662,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:54","message":"before multipart register","data":{},"timestamp":1770216392721,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:64","message":"before rateLimit register","data":{"hasRateLimit":true},"timestamp":1770216392730,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"DIContainer.ts:115","message":"before DraftController creation","data":{"hasCreateUseCase":true,"hasUpdateUseCase":true,"hasGetDraftUseCase":true,"hasGenerateUseCase":true,"hasPreviewUseCase":true,"hasUploadUseCase":true},"timestamp":1770216392634,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FastifyServer.ts:68","message":"before registerRoutes","data":{"hasController":true},"timestamp":1770216392735,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:11","message":"registerRoutes entry","data":{"hasController":true},"timestamp":1770216392736,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:32","message":"before server.register api/v1","data":{},"timestamp":1770216392739,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:38","message":"inside api/v1 register","data":{},"timestamp":1770216392747,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:45","message":"before draftRoutes register","data":{"hasController":true},"timestamp":1770216392748,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/draft.ts:10","message":"draftRoutes entry","data":{"hasController":true,"hasConfig":true},"timestamp":1770216392756,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:50","message":"after draftRoutes register","data":{},"timestamp":1770216392768,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:54","message":"registerRoutes exit","data":{},"timestamp":1770216392772,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FastifyServer.ts:71","message":"after registerRoutes","data":{},"timestamp":1770216392773,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:35","message":"after createFastifyServer","data":{"serverCreated":true},"timestamp":1770216392775,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"main.ts:11","message":"bootstrap started","data":{},"timestamp":1770216398652,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DIContainer.ts:82","message":"after Frappe config load","data":{"enabled":false},"timestamp":1770216398692,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"DIContainer.ts:89","message":"after Frappe adapter creation","data":{"hasAdapter":false},"timestamp":1770216398694,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"DIContainer.ts:115","message":"before DraftController creation","data":{"hasCreateUseCase":true,"hasUpdateUseCase":true,"hasGetDraftUseCase":true,"hasGenerateUseCase":true,"hasPreviewUseCase":true,"hasUploadUseCase":true},"timestamp":1770216398696,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"DIContainer.ts:125","message":"after DraftController creation","data":{"hasController":true},"timestamp":1770216398699,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.ts:15","message":"container created","data":{"hasController":true},"timestamp":1770216398700,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.ts:25","message":"before createFastifyServer","data":{"host":"0.0.0.0","port":3000},"timestamp":1770216398701,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:27","message":"createFastifyServer entry","data":{"hasController":true},"timestamp":1770216398702,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FastifyServer.ts:44","message":"before cors register","data":{},"timestamp":1770216398715,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"DIContainer.ts:77","message":"before Frappe config load","data":{},"timestamp":1770216398689,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FastifyServer.ts:54","message":"before multipart register","data":{},"timestamp":1770216398758,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:64","message":"before rateLimit register","data":{"hasRateLimit":true},"timestamp":1770216398766,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:68","message":"before registerRoutes","data":{"hasController":true},"timestamp":1770216398770,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:11","message":"registerRoutes entry","data":{"hasController":true},"timestamp":1770216398772,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:32","message":"before server.register api/v1","data":{},"timestamp":1770216398774,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:38","message":"inside api/v1 register","data":{},"timestamp":1770216398784,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/draft.ts:10","message":"draftRoutes entry","data":{"hasController":true,"hasConfig":true},"timestamp":1770216398788,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:50","message":"after draftRoutes register","data":{},"timestamp":1770216398795,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:54","message":"registerRoutes exit","data":{},"timestamp":1770216398801,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FastifyServer.ts:71","message":"after registerRoutes","data":{},"timestamp":1770216398802,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:35","message":"after createFastifyServer","data":{"serverCreated":true},"timestamp":1770216398805,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"routes/index.ts:45","message":"before draftRoutes register","data":{"hasController":true},"timestamp":1770216398785,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:11","message":"bootstrap started","data":{},"timestamp":1770216550352,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DIContainer.ts:82","message":"after Frappe config load","data":{"enabled":false},"timestamp":1770216550388,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"DIContainer.ts:89","message":"after Frappe adapter creation","data":{"hasAdapter":false},"timestamp":1770216550388,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"DIContainer.ts:140","message":"before DraftController creation","data":{"hasCreateUseCase":true,"hasUpdateUseCase":true,"hasGetDraftUseCase":true,"hasGenerateUseCase":true,"hasPreviewUseCase":true,"hasCommitUseCase":true},"timestamp":1770216550390,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"DIContainer.ts:125","message":"after DraftController creation","data":{"hasController":true},"timestamp":1770216550390,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.ts:15","message":"container created","data":{"hasController":true},"timestamp":1770216550391,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.ts:25","message":"before createFastifyServer","data":{"host":"0.0.0.0","port":3000},"timestamp":1770216550392,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:27","message":"createFastifyServer entry","data":{"hasController":true},"timestamp":1770216550394,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FastifyServer.ts:44","message":"before cors register","data":{},"timestamp":1770216550404,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:54","message":"before multipart register","data":{},"timestamp":1770216550432,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:64","message":"before rateLimit register","data":{"hasRateLimit":true},"timestamp":1770216550436,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:68","message":"before registerRoutes","data":{"hasController":true},"timestamp":1770216550438,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:11","message":"registerRoutes entry","data":{"hasController":true},"timestamp":1770216550438,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:32","message":"before server.register api/v1","data":{},"timestamp":1770216550441,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:38","message":"inside api/v1 register","data":{},"timestamp":1770216550447,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:45","message":"before draftRoutes register","data":{"hasController":true},"timestamp":1770216550448,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DIContainer.ts:77","message":"before Frappe config load","data":{},"timestamp":1770216550386,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"routes/draft.ts:10","message":"draftRoutes entry","data":{"hasController":true,"hasConfig":true},"timestamp":1770216550451,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:54","message":"registerRoutes exit","data":{},"timestamp":1770216550461,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FastifyServer.ts:71","message":"after registerRoutes","data":{},"timestamp":1770216550462,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:35","message":"after createFastifyServer","data":{"serverCreated":true},"timestamp":1770216550464,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"main.ts:33","message":"before server.listen","data":{"host":"0.0.0.0","port":3000},"timestamp":1770216550465,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"main.ts:42","message":"after server.listen success","data":{},"timestamp":1770216550471,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"routes/index.ts:50","message":"after draftRoutes register","data":{},"timestamp":1770216550455,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:11","message":"bootstrap started","data":{},"timestamp":1770216604435,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DIContainer.ts:82","message":"after Frappe config load","data":{"enabled":false},"timestamp":1770216604468,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"DIContainer.ts:89","message":"after Frappe adapter creation","data":{"hasAdapter":false},"timestamp":1770216604469,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"DIContainer.ts:140","message":"before DraftController creation","data":{"hasCreateUseCase":true,"hasUpdateUseCase":true,"hasGetDraftUseCase":true,"hasGenerateUseCase":true,"hasPreviewUseCase":true,"hasCommitUseCase":true},"timestamp":1770216604469,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"DIContainer.ts:125","message":"after DraftController creation","data":{"hasController":true},"timestamp":1770216604470,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.ts:15","message":"container created","data":{"hasController":true},"timestamp":1770216604470,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.ts:25","message":"before createFastifyServer","data":{"host":"0.0.0.0","port":3000},"timestamp":1770216604471,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:27","message":"createFastifyServer entry","data":{"hasController":true},"timestamp":1770216604471,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"DIContainer.ts:77","message":"before Frappe config load","data":{},"timestamp":1770216604466,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FastifyServer.ts:54","message":"before multipart register","data":{},"timestamp":1770216604508,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:64","message":"before rateLimit register","data":{"hasRateLimit":true},"timestamp":1770216604513,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:68","message":"before registerRoutes","data":{"hasController":true},"timestamp":1770216604516,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FastifyServer.ts:44","message":"before cors register","data":{},"timestamp":1770216604481,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"routes/index.ts:11","message":"registerRoutes entry","data":{"hasController":true},"timestamp":1770216604516,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:38","message":"inside api/v1 register","data":{},"timestamp":1770216604522,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:32","message":"before server.register api/v1","data":{},"timestamp":1770216604518,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:45","message":"before draftRoutes register","data":{"hasController":true},"timestamp":1770216604523,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/draft.ts:10","message":"draftRoutes entry","data":{"hasController":true,"hasConfig":true},"timestamp":1770216604526,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:50","message":"after draftRoutes register","data":{},"timestamp":1770216604531,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:54","message":"registerRoutes exit","data":{},"timestamp":1770216604534,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FastifyServer.ts:71","message":"after registerRoutes","data":{},"timestamp":1770216604534,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:35","message":"after createFastifyServer","data":{"serverCreated":true},"timestamp":1770216604536,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"main.ts:33","message":"before server.listen","data":{"host":"0.0.0.0","port":3000},"timestamp":1770216604536,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"main.ts:42","message":"after server.listen success","data":{},"timestamp":1770216604542,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"main.ts:11","message":"bootstrap started","data":{},"timestamp":1770216664857,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DIContainer.ts:77","message":"before Frappe config load","data":{},"timestamp":1770216664888,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"DIContainer.ts:89","message":"after Frappe adapter creation","data":{"hasAdapter":false},"timestamp":1770216664891,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"DIContainer.ts:140","message":"before DraftController creation","data":{"hasCreateUseCase":true,"hasUpdateUseCase":true,"hasGetDraftUseCase":true,"hasGenerateUseCase":true,"hasPreviewUseCase":true,"hasCommitUseCase":true},"timestamp":1770216664892,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"DIContainer.ts:125","message":"after DraftController creation","data":{"hasController":true},"timestamp":1770216664893,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.ts:15","message":"container created","data":{"hasController":true},"timestamp":1770216664894,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.ts:25","message":"before createFastifyServer","data":{"host":"127.0.0.1","port":3000},"timestamp":1770216664895,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:27","message":"createFastifyServer entry","data":{"hasController":true},"timestamp":1770216664895,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FastifyServer.ts:44","message":"before cors register","data":{},"timestamp":1770216664902,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:54","message":"before multipart register","data":{},"timestamp":1770216664930,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:64","message":"before rateLimit register","data":{"hasRateLimit":true},"timestamp":1770216664933,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:68","message":"before registerRoutes","data":{"hasController":true},"timestamp":1770216664936,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:11","message":"registerRoutes entry","data":{"hasController":true},"timestamp":1770216664936,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:32","message":"before server.register api/v1","data":{},"timestamp":1770216664938,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:38","message":"inside api/v1 register","data":{},"timestamp":1770216664943,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DIContainer.ts:82","message":"after Frappe config load","data":{"enabled":false},"timestamp":1770216664890,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"routes/draft.ts:10","message":"draftRoutes entry","data":{"hasController":true,"hasConfig":true},"timestamp":1770216664946,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:50","message":"after draftRoutes register","data":{},"timestamp":1770216664950,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:54","message":"registerRoutes exit","data":{},"timestamp":1770216664952,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FastifyServer.ts:71","message":"after registerRoutes","data":{},"timestamp":1770216664952,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:35","message":"after createFastifyServer","data":{"serverCreated":true},"timestamp":1770216664953,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"main.ts:33","message":"before server.listen","data":{"host":"127.0.0.1","port":3000},"timestamp":1770216664954,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"main.ts:42","message":"after server.listen success","data":{},"timestamp":1770216664960,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"routes/index.ts:45","message":"before draftRoutes register","data":{"hasController":true},"timestamp":1770216664944,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:11","message":"bootstrap started","data":{},"timestamp":1770216756797,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DIContainer.ts:82","message":"after Frappe config load","data":{"enabled":false},"timestamp":1770216756835,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"DIContainer.ts:89","message":"after Frappe adapter creation","data":{"hasAdapter":false},"timestamp":1770216756835,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"DIContainer.ts:140","message":"before DraftController creation","data":{"hasCreateUseCase":true,"hasUpdateUseCase":true,"hasGetDraftUseCase":true,"hasGenerateUseCase":true,"hasPreviewUseCase":true,"hasCommitUseCase":true},"timestamp":1770216756837,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"DIContainer.ts:125","message":"after DraftController creation","data":{"hasController":true},"timestamp":1770216756838,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.ts:15","message":"container created","data":{"hasController":true},"timestamp":1770216756839,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.ts:25","message":"before createFastifyServer","data":{"host":"127.0.0.1","port":3000},"timestamp":1770216756839,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:27","message":"createFastifyServer entry","data":{"hasController":true},"timestamp":1770216756840,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FastifyServer.ts:44","message":"before cors register","data":{},"timestamp":1770216756851,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:54","message":"before multipart register","data":{},"timestamp":1770216756881,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"DIContainer.ts:77","message":"before Frappe config load","data":{},"timestamp":1770216756833,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FastifyServer.ts:68","message":"before registerRoutes","data":{"hasController":true},"timestamp":1770216756887,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:11","message":"registerRoutes entry","data":{"hasController":true},"timestamp":1770216756888,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:32","message":"before server.register api/v1","data":{},"timestamp":1770216756890,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:38","message":"inside api/v1 register","data":{},"timestamp":1770216756895,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:45","message":"before draftRoutes register","data":{"hasController":true},"timestamp":1770216756896,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/draft.ts:10","message":"draftRoutes entry","data":{"hasController":true,"hasConfig":true},"timestamp":1770216756899,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:50","message":"after draftRoutes register","data":{},"timestamp":1770216756903,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:54","message":"registerRoutes exit","data":{},"timestamp":1770216756906,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FastifyServer.ts:64","message":"before rateLimit register","data":{"hasRateLimit":true},"timestamp":1770216756885,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:71","message":"after registerRoutes","data":{},"timestamp":1770216756907,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:33","message":"before server.listen","data":{"host":"127.0.0.1","port":3000},"timestamp":1770216756911,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"main.ts:42","message":"after server.listen success","data":{"address":{"address":"127.0.0.1","family":"IPv4","port":3000}},"timestamp":1770216756917,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"main.ts:71","message":"server fully started","data":{"host":"127.0.0.1","port":3000},"timestamp":1770216756918,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"main.ts:35","message":"after createFastifyServer","data":{"serverCreated":true},"timestamp":1770216756910,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"main.ts:11","message":"bootstrap started","data":{},"timestamp":1770216814910,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DIContainer.ts:82","message":"after Frappe config load","data":{"enabled":false},"timestamp":1770216814944,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"DIContainer.ts:89","message":"after Frappe adapter creation","data":{"hasAdapter":false},"timestamp":1770216814945,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"DIContainer.ts:140","message":"before DraftController creation","data":{"hasCreateUseCase":true,"hasUpdateUseCase":true,"hasGetDraftUseCase":true,"hasGenerateUseCase":true,"hasPreviewUseCase":true,"hasCommitUseCase":true},"timestamp":1770216814946,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"DIContainer.ts:125","message":"after DraftController creation","data":{"hasController":true},"timestamp":1770216814946,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.ts:15","message":"container created","data":{"hasController":true},"timestamp":1770216814947,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.ts:25","message":"before createFastifyServer","data":{"host":"127.0.0.1","port":3000},"timestamp":1770216814947,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:27","message":"createFastifyServer entry","data":{"hasController":true},"timestamp":1770216814948,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FastifyServer.ts:44","message":"before cors register","data":{},"timestamp":1770216814954,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:54","message":"before multipart register","data":{},"timestamp":1770216814978,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:64","message":"before rateLimit register","data":{"hasRateLimit":true},"timestamp":1770216814981,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:68","message":"before registerRoutes","data":{"hasController":true},"timestamp":1770216814983,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DIContainer.ts:77","message":"before Frappe config load","data":{},"timestamp":1770216814943,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"routes/index.ts:32","message":"before server.register api/v1","data":{},"timestamp":1770216814985,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:38","message":"inside api/v1 register","data":{},"timestamp":1770216814989,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:45","message":"before draftRoutes register","data":{"hasController":true},"timestamp":1770216814989,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/draft.ts:10","message":"draftRoutes entry","data":{"hasController":true,"hasConfig":true},"timestamp":1770216814993,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:50","message":"after draftRoutes register","data":{},"timestamp":1770216814998,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:54","message":"registerRoutes exit","data":{},"timestamp":1770216815001,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FastifyServer.ts:71","message":"after registerRoutes","data":{},"timestamp":1770216815002,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:35","message":"after createFastifyServer","data":{"serverCreated":true},"timestamp":1770216815004,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"main.ts:33","message":"before server.listen","data":{"host":"127.0.0.1","port":3000},"timestamp":1770216815005,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"main.ts:42","message":"after server.listen success","data":{"address":"http://127.0.0.1:3000","serverAddress":{"address":"127.0.0.1","family":"IPv4","port":3000}},"timestamp":1770216815013,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"main.ts:71","message":"server fully started","data":{"host":"127.0.0.1","port":3000},"timestamp":1770216815014,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"routes/index.ts:11","message":"registerRoutes entry","data":{"hasController":true},"timestamp":1770216814984,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:11","message":"bootstrap started","data":{},"timestamp":1770217095058,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DIContainer.ts:82","message":"after Frappe config load","data":{"enabled":false},"timestamp":1770217095113,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"DIContainer.ts:89","message":"after Frappe adapter creation","data":{"hasAdapter":false},"timestamp":1770217095116,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"DIContainer.ts:140","message":"before DraftController creation","data":{"hasCreateUseCase":true,"hasUpdateUseCase":true,"hasGetDraftUseCase":true,"hasGenerateUseCase":true,"hasPreviewUseCase":true,"hasCommitUseCase":true},"timestamp":1770217095118,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"DIContainer.ts:125","message":"after DraftController creation","data":{"hasController":true},"timestamp":1770217095121,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.ts:15","message":"container created","data":{"hasController":true},"timestamp":1770217095123,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.ts:25","message":"before createFastifyServer","data":{"host":"127.0.0.1","port":3000},"timestamp":1770217095125,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:27","message":"createFastifyServer entry","data":{"hasController":true},"timestamp":1770217095128,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FastifyServer.ts:44","message":"before cors register","data":{},"timestamp":1770217095172,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:54","message":"before multipart register","data":{},"timestamp":1770217095325,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"DIContainer.ts:77","message":"before Frappe config load","data":{},"timestamp":1770217095110,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FastifyServer.ts:68","message":"before registerRoutes","data":{"hasController":true},"timestamp":1770217095343,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:11","message":"registerRoutes entry","data":{"hasController":true},"timestamp":1770217095346,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:32","message":"before server.register api/v1","data":{},"timestamp":1770217095348,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:38","message":"inside api/v1 register","data":{},"timestamp":1770217095356,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:45","message":"before draftRoutes register","data":{"hasController":true},"timestamp":1770217095357,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/draft.ts:10","message":"draftRoutes entry","data":{"hasController":true,"hasConfig":true},"timestamp":1770217095363,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FastifyServer.ts:64","message":"before rateLimit register","data":{"hasRateLimit":true},"timestamp":1770217095337,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"routes/index.ts:54","message":"registerRoutes exit","data":{},"timestamp":1770217095379,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FastifyServer.ts:71","message":"after registerRoutes","data":{},"timestamp":1770217095380,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:35","message":"after createFastifyServer","data":{"serverCreated":true},"timestamp":1770217095383,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"main.ts:33","message":"before server.listen","data":{"host":"127.0.0.1","port":3000},"timestamp":1770217095384,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"main.ts:42","message":"after server.listen success","data":{"address":"http://127.0.0.1:3000","serverAddress":{"address":"127.0.0.1","family":"IPv4","port":3000}},"timestamp":1770217095396,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"main.ts:71","message":"server fully started","data":{"host":"127.0.0.1","port":3000},"timestamp":1770217095398,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"routes/index.ts:50","message":"after draftRoutes register","data":{},"timestamp":1770217095372,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:11","message":"bootstrap started","data":{},"timestamp":1770217144525,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DIContainer.ts:82","message":"after Frappe config load","data":{"enabled":false},"timestamp":1770217144558,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"DIContainer.ts:89","message":"after Frappe adapter creation","data":{"hasAdapter":false},"timestamp":1770217144559,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"DIContainer.ts:140","message":"before DraftController creation","data":{"hasCreateUseCase":true,"hasUpdateUseCase":true,"hasGetDraftUseCase":true,"hasGenerateUseCase":true,"hasPreviewUseCase":true,"hasCommitUseCase":true},"timestamp":1770217144560,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"DIContainer.ts:125","message":"after DraftController creation","data":{"hasController":true},"timestamp":1770217144560,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.ts:15","message":"container created","data":{"hasController":true},"timestamp":1770217144561,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.ts:25","message":"before createFastifyServer","data":{"host":"127.0.0.1","port":3000},"timestamp":1770217144561,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:27","message":"createFastifyServer entry","data":{"hasController":true},"timestamp":1770217144562,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FastifyServer.ts:44","message":"before cors register","data":{},"timestamp":1770217144568,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:54","message":"before multipart register","data":{},"timestamp":1770217144594,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:64","message":"before rateLimit register","data":{"hasRateLimit":true},"timestamp":1770217144596,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"DIContainer.ts:77","message":"before Frappe config load","data":{},"timestamp":1770217144556,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FastifyServer.ts:68","message":"before registerRoutes","data":{"hasController":true},"timestamp":1770217144599,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:32","message":"before server.register api/v1","data":{},"timestamp":1770217144602,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:38","message":"inside api/v1 register","data":{},"timestamp":1770217144606,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:45","message":"before draftRoutes register","data":{"hasController":true},"timestamp":1770217144607,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/draft.ts:10","message":"draftRoutes entry","data":{"hasController":true,"hasConfig":true},"timestamp":1770217144608,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:50","message":"after draftRoutes register","data":{},"timestamp":1770217144612,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:54","message":"registerRoutes exit","data":{},"timestamp":1770217144614,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FastifyServer.ts:71","message":"after registerRoutes","data":{},"timestamp":1770217144615,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:35","message":"after createFastifyServer","data":{"serverCreated":true},"timestamp":1770217144616,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"main.ts:33","message":"before server.listen","data":{"host":"127.0.0.1","port":3000},"timestamp":1770217144616,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"main.ts:42","message":"after server.listen success","data":{"address":"http://127.0.0.1:3000","serverAddress":{"address":"127.0.0.1","family":"IPv4","port":3000}},"timestamp":1770217144622,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"main.ts:71","message":"server fully started","data":{"host":"127.0.0.1","port":3000},"timestamp":1770217144623,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"routes/index.ts:11","message":"registerRoutes entry","data":{"hasController":true},"timestamp":1770217144600,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:11","message":"bootstrap started","data":{},"timestamp":1770217310520,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DIContainer.ts:82","message":"after Frappe config load","data":{"enabled":false},"timestamp":1770217310562,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"DIContainer.ts:89","message":"after Frappe adapter creation","data":{"hasAdapter":false},"timestamp":1770217310562,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"DIContainer.ts:140","message":"before DraftController creation","data":{"hasCreateUseCase":true,"hasUpdateUseCase":true,"hasGetDraftUseCase":true,"hasGenerateUseCase":true,"hasPreviewUseCase":true,"hasCommitUseCase":true},"timestamp":1770217310563,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"DIContainer.ts:125","message":"after DraftController creation","data":{"hasController":true},"timestamp":1770217310564,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.ts:15","message":"container created","data":{"hasController":true},"timestamp":1770217310564,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.ts:25","message":"before createFastifyServer","data":{"host":"127.0.0.1","port":3000},"timestamp":1770217310565,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:27","message":"createFastifyServer entry","data":{"hasController":true},"timestamp":1770217310565,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FastifyServer.ts:44","message":"before cors register","data":{},"timestamp":1770217310577,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:54","message":"before multipart register","data":{},"timestamp":1770217310609,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:64","message":"before rateLimit register","data":{"hasRateLimit":true},"timestamp":1770217310612,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"DIContainer.ts:77","message":"before Frappe config load","data":{},"timestamp":1770217310560,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"routes/index.ts:11","message":"registerRoutes entry","data":{"hasController":true},"timestamp":1770217310616,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:32","message":"before server.register api/v1","data":{},"timestamp":1770217310618,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:38","message":"inside api/v1 register","data":{},"timestamp":1770217310625,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:45","message":"before draftRoutes register","data":{"hasController":true},"timestamp":1770217310626,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/draft.ts:10","message":"draftRoutes entry","data":{"hasController":true,"hasConfig":true},"timestamp":1770217310628,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:50","message":"after draftRoutes register","data":{},"timestamp":1770217310634,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:54","message":"registerRoutes exit","data":{},"timestamp":1770217310640,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FastifyServer.ts:71","message":"after registerRoutes","data":{},"timestamp":1770217310641,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:35","message":"after createFastifyServer","data":{"serverCreated":true},"timestamp":1770217310643,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"main.ts:33","message":"before server.listen","data":{"host":"127.0.0.1","port":3000},"timestamp":1770217310644,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FastifyServer.ts:68","message":"before registerRoutes","data":{"hasController":true},"timestamp":1770217310615,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:42","message":"after server.listen success","data":{"address":"http://127.0.0.1:3000","serverAddress":{"address":"127.0.0.1","family":"IPv4","port":3000}},"timestamp":1770217310656,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"main.ts:71","message":"server fully started","data":{"host":"127.0.0.1","port":3000},"timestamp":1770217310657,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"main.ts:11","message":"bootstrap started","data":{},"timestamp":1770217343609,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DIContainer.ts:82","message":"after Frappe config load","data":{"enabled":false},"timestamp":1770217343644,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"DIContainer.ts:89","message":"after Frappe adapter creation","data":{"hasAdapter":false},"timestamp":1770217343645,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"DIContainer.ts:140","message":"before DraftController creation","data":{"hasCreateUseCase":true,"hasUpdateUseCase":true,"hasGetDraftUseCase":true,"hasGenerateUseCase":true,"hasPreviewUseCase":true,"hasCommitUseCase":true},"timestamp":1770217343646,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"DIContainer.ts:125","message":"after DraftController creation","data":{"hasController":true},"timestamp":1770217343646,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.ts:15","message":"container created","data":{"hasController":true},"timestamp":1770217343647,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.ts:25","message":"before createFastifyServer","data":{"host":"localhost","port":3000},"timestamp":1770217343647,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:27","message":"createFastifyServer entry","data":{"hasController":true},"timestamp":1770217343648,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FastifyServer.ts:44","message":"before cors register","data":{},"timestamp":1770217343655,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:54","message":"before multipart register","data":{},"timestamp":1770217343682,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:64","message":"before rateLimit register","data":{"hasRateLimit":true},"timestamp":1770217343685,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FastifyServer.ts:68","message":"before registerRoutes","data":{"hasController":true},"timestamp":1770217343688,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DIContainer.ts:77","message":"before Frappe config load","data":{},"timestamp":1770217343643,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"routes/index.ts:32","message":"before server.register api/v1","data":{},"timestamp":1770217343691,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:38","message":"inside api/v1 register","data":{},"timestamp":1770217343694,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:45","message":"before draftRoutes register","data":{"hasController":true},"timestamp":1770217343695,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/draft.ts:10","message":"draftRoutes entry","data":{"hasController":true,"hasConfig":true},"timestamp":1770217343697,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:50","message":"after draftRoutes register","data":{},"timestamp":1770217343702,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"routes/index.ts:54","message":"registerRoutes exit","data":{},"timestamp":1770217343705,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FastifyServer.ts:71","message":"after registerRoutes","data":{},"timestamp":1770217343705,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.ts:35","message":"after createFastifyServer","data":{"serverCreated":true},"timestamp":1770217343706,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"main.ts:33","message":"before server.listen","data":{"host":"localhost","port":3000},"timestamp":1770217343707,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"main.ts:42","message":"after server.listen success","data":{"address":"http://127.0.0.1:3000","serverAddress":{"address":"127.0.0.1","family":"IPv4","port":3000}},"timestamp":1770217343728,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"main.ts:71","message":"server fully started","data":{"host":"localhost","port":3000},"timestamp":1770217343732,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"routes/index.ts:11","message":"registerRoutes entry","data":{"hasController":true},"timestamp":1770217343689,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
